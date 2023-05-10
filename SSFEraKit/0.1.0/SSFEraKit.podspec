@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Alex Lebedko/SSFEraKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex Lebedko' => 'lebedko@soramitsu.co.jp' }
-  s.source           = { :git => 'https://github.com/soramitsu/shared-features-ios/pull/5', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/soramitsu/shared-features-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
 
