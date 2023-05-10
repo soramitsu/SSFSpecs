@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/soramitsu/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Soramitsu' => 'admin@soramitsu.co.jp' }
-  s.source           = { :git => 'git@github.com:soramitsu/shared-features-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/soramitsu/shared-features-ios/pull/5', :tag => s.version.to_s }
   s.swift_version    = '5.0'
 
   s.ios.deployment_target = '13.0'
