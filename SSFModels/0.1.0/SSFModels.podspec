@@ -10,8 +10,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.7'
 
-  s.source_files = 'SSFModels/SSFModels/Classes/**/*'
+  s.source_files = 'SSFModels/Classes/**/*'
   
   s.dependency 'IrohaCrypto'
+  s.dependency 'SoraFoundation'
+  s.dependency 'SSFUtils'
     
 end
