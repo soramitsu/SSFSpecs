@@ -23,6 +23,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SSFChainConnection/SSFChainConnection/Classes/**/*'
   s.dependency 'SSFUtils'
-  s.dependency 'SSFModels'
 
 end
