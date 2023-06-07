@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
   s.dependency 'IrohaCrypto/ss58'
   s.dependency 'xxHash-Swift', '~> 1.0.0'
   s.dependency 'SSFUtils'
-  s.dependency 'SSFModels'
   s.dependency 'xxHash-Swift', '~> 1.0.0'
   
 end
