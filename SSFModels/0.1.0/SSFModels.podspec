@@ -13,7 +13,5 @@ Pod::Spec.new do |s|
   s.source_files = 'SSFModels/Classes/**/*'
   
   s.dependency 'IrohaCrypto'
-  s.dependency 'SoraFoundation'
-  s.dependency 'SSFUtils'
     
 end
