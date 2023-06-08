@@ -12,10 +12,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'SSFChainRegistry/SSFChainRegistry/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SSFChainRegistry' => ['SSFChainRegistry/Assets/*.png']
-  # }
 
   s.dependency 'SSFUtils'
   s.dependency 'RobinHood'
