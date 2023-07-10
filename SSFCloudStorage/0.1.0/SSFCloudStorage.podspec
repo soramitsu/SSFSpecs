@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source_files = 'SSFCloudStorage/SSFCloudStorage/Classes/**/*'
 
   s.dependency 'GoogleAPIClientForREST/Drive', '~> 1.2.1'
-  s.dependency 'GoogleSignIn', '~> 4.1.1'
+  s.dependency 'GoogleSignIn', '~> 7.0.0'
   s.dependency 'TweetNacl', '~> 1.0.0'
   s.dependency 'IrohaCrypto/Scrypt'
 
