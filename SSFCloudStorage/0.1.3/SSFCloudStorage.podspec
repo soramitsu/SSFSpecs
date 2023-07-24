@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/soramitsu/shared-features-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ivan Shlyapkin' => 'shlyapkin@soramitsu.co.jp' }
-  s.source           = { :git => 'https://github.com/soramitsu/shared-features-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/soramitsu/shared-features-ios.git', :tag => '0.1.3' }
   s.ios.deployment_target = '13.0'
   s.source_files = 'SSFCloudStorage/Classes/**/*'
 
