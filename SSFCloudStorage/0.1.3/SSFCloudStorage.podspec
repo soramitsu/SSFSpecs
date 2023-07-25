@@ -8,6 +8,12 @@ Pod::Spec.new do |s|
   s.author           = { 'Ivan Shlyapkin' => 'shlyapkin@soramitsu.co.jp' }
   s.source           = { :git => 'https://github.com/soramitsu/shared-features-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
-  s.source_files = 'SSFCloudStorage/Classes/**/*'
+  s.source_files = 'SSFCloudStorage/SSFCloudStorage/Classes/**/*'
 
+  s.dependency 'GoogleAPIClientForREST/Drive', '~> 1.2.1'
+  s.dependency 'GoogleSignIn', '~> 7.0.0'
+  s.dependency 'TweetNacl', '~> 1.0.0'
+  s.dependency 'IrohaCrypto/Scrypt'
+
+  s.static_framework = true
 end
