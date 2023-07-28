@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SSFCloudStorage'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'Google backup for blockchain account'
   s.description      = 'Google backup for blockchain account'
   s.homepage         = 'https://github.com/soramitsu/shared-features-ios'
