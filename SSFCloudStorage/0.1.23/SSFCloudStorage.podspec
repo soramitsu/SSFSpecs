@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleSignIn', '~> 7.0.0'
   s.dependency 'TweetNacl', '~> 1.0.0'
   s.dependency 'IrohaCrypto/Scrypt'
-  s.dependency 'SSFUtils'
+  s.dependency 'SSFUtils', '~> 0.1.31'
   s.dependency 'SSFModels'
 
   s.static_framework = true
