@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FearlessKeys'
   s.version          = '0.1.4'
-  s.summary          = 'Private api keys repo'
+  s.summary          = 'Private api keys repository'
   s.description      = 'Fearless api keys'
   s.homepage         = 'https://github.com/soramitsu/fearless-keys'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
